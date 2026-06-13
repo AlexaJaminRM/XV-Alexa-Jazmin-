@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3D345F" />
+  <title>XV Jazmín Hernández Muñoz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/music/speechless.mp3" type="audio/mpeg" />
+  </audio>
+
+  <div class="welcome" id="welcome">
+    <div class="stars-layer"></div>
+    <div class="welcome-card">
+      <div class="crescent"></div>
+      <p class="eyebrow">Mis XV</p>
+      <h1>Jazmín</h1>
+      <p class="welcome-date">04 · Julio · 2026</p>
+      <button id="enterBtn" class="btn primary">Entrar a esta noche mágica</button>
+      <p class="hint">Toca para abrir la invitación y activar la música</p>
+    </div>
+  </div>
+
+  <button class="music-btn" id="musicBtn" aria-label="Reproducir o pausar música">♪</button>
+  <a class="whatsapp-float" href="https://wa.me/522286865857?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Jazm%C3%ADn.%20Mi%20nombre%20es%3A%20" target="_blank" rel="noopener">Confirmar</a>
+
+  <header class="hero section">
+    <div class="sparkles"></div>
+    <div class="hero-card reveal">
+      <p class="mini">Mis</p>
+      <h2>XV</h2>
+      <h1>Jazmín</h1>
+      <p class="surname">Hernández Muñoz</p>
+      <div class="divider"><span></span></div>
+      <p class="date-line">04 de julio de 2026</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro reveal">
+      <div class="section-icon">✦</div>
+      <p class="quote">Tu presencia hará de este momento un recuerdo inolvidable que atesoraremos por siempre.</p>
+    </section>
+
+    <section class="section family reveal">
+      <h3>Con la bendición de mis padres</h3>
+      <p>María Joaquina Muñoz Camacho</p>
+      <p>Francisco Hernández Aguilar</p>
+
+      <h3>Y en compañía de mis padrinos</h3>
+      <p>Naomi Santiago Cruz</p>
+      <p>Fernando Abraham Abrego Vázquez</p>
+    </section>
+
+    <section class="section countdown reveal">
+      <p class="mini">Te esperamos el día</p>
+      <h2>04</h2>
+      <p class="date">de julio 2026</p>
+      <div class="countdown-grid" id="countdown">
+        <div><strong id="days">00</strong><span>Días</span></div>
+        <div><strong id="hours">00</strong><span>Horas</span></div>
+        <div><strong id="minutes">00</strong><span>Min</span></div>
+        <div><strong id="seconds">00</strong><span>Seg</span></div>
+      </div>
+      <p class="punctual">Agradecemos tu puntual asistencia</p>
+    </section>
+
+    <section class="section events reveal">
+      <article class="event-card">
+        <div class="icon temple">⌂</div>
+        <p class="mini">Ceremonia</p>
+        <h3>Templo</h3>
+        <h4>San Bartolomé Apóstol</h4>
+        <p class="time">16:30 hrs</p>
+        <p>Calle 121-A Pte., Fuentes de San Bartolo</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=San+Bartolom%C3%A9+Ap%C3%B3stol+Calle+121-A+Pte.+Fuentes+de+San+Bartolo">Ver ubicación</a>
+      </article>
+
+      <article class="event-card">
+        <div class="icon salon">✧</div>
+        <p class="mini">Celebración</p>
+        <h3>Recepción</h3>
+        <h4>Ex Hacienda de San Bartolo</h4>
+        <p class="time">18:00 hrs</p>
+        <p>Av. 3 Sur 12105-A, Guadalupe Hidalgo</p>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ex+Hacienda+de+San+Bartolo+Av.+3+Sur+12105-A+Guadalupe+Hidalgo">Ver ubicación</a>
+      </article>
+    </section>
+
+    <section class="section gallery reveal">
+      <h3>Una noche mágica</h3>
+      <p>Espacio preparado para agregar fotografías de Jazmín.</p>
+      <div class="photo-grid">
+        <div>Foto 1</div>
+        <div>Foto 2</div>
+        <div>Foto 3</div>
+      </div>
+    </section>
+
+    <section class="section rsvp reveal">
+      <h3>Confirmación de asistencia</h3>
+      <p>Nos encantará contar contigo en esta noche tan especial.</p>
+      <a class="btn primary" target="_blank" rel="noopener" href="https://wa.me/522286865857?text=Hola%2C%20confirmo%20mi%20asistencia%20a%20los%20XV%20de%20Jazm%C3%ADn.%20Mi%20nombre%20es%3A%20">Confirmar por WhatsApp</a>
+      <p class="phone">228 686 5857</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Gracias por acompañarme en esta noche mágica</p>
+    <strong>XV Jazmín Hernández Muñoz</strong>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
